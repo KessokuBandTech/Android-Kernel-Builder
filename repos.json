@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "camellia-KernelSU",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/",
+      "branch": "camellia-r-oss",
+      "device": "camellia"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -14,7 +14,7 @@
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "12",
         "name": "clang"
       }
     ],
